@@ -1,0 +1,90 @@
+.aboutUs{
+    padding: 4rem 6rem;
+    background-color: #c9dde8;
+}
+.aboutUs h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      translate: 0 150vh;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+.aboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    /* height: 50%; */
+}
+
+.aboutContent .videoContainer {
+    width: 40%;
+    height: 30rem;
+    background: black;
+    border: none;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+.aboutContent .videoContainer .aboutVid{
+    width: 100%;
+    height: 30rem;
+}
+
+.aboutContent .aboutInfo{
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: justify;
+    overflow: hidden;
+    animation: scrollText ;
+}
+
+/* @keyframes scrollText {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(50%);
+    }
+  } */
+
+  p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes scrollText {
+    from {
+      translate: 0 150vw;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .aboutContent {
+        flex-direction: column;
+    }
+    .aboutContent .videoContainer {
+        width: 100%;
+    }
+    .aboutContent .aboutInfo{
+        width: 100%;
+    }
+  }

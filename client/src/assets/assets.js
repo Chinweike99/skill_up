@@ -17,6 +17,7 @@ import trade from './trade.png'
 import webdevelopment from './webdevelopment.png'
 import writing from './writing.png'
 
+
 export const assets = {
     barbing, dance, fashionDesign, fitness, fitness_dumbell,Hairdresser, music, music_piano, skill, skill1, skillup2, spa, tailoring, tech, trade, webdevelopment, writing, marketing
 }
