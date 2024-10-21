@@ -1,0 +1,80 @@
+.hero{
+}
+
+.heroContainer{
+    position: relative;
+    width: 100%;
+    background-image: url('../../../assets/tech.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    /* animation: bgChange 60s linear infinite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@keyframes bgChange{
+    0%{
+        background-image: url('../../../assets/tech.png');
+    }
+    10%{
+        background-image: url('../../../assets/webdevelopment.png');
+    }
+    20%{
+        background-image: url('../../../assets/fitness_dumbell.png');
+    }
+    30%{
+        background-image: url('../../../assets/marketing.png');
+    }
+    40%{
+        background-image: url('../../../assets/music_piano.png');
+    }
+    50%{
+        background-image: url('../../../assets/dance.png');
+    }
+    60%{
+        background-image: url('../../../assets/fashionDesign.png');
+    }
+    70%{
+        background-image: url('../../../assets/barbing.png');
+    }
+    80%{
+        background-image: url('../../../assets/Hairdresser.png');
+    }
+    90%{
+        background-image: url('../../../assets/trade.png');
+    }
+    90%{
+        background-image: url('../../../assets/music.png');
+    }
+}
+
+.hero .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.heroContainer .heroWrite{
+    /* padding-top: 20%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    z-index: 2;
+}
+.heroWrite h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
