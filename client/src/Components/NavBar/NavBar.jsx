@@ -7,20 +7,20 @@ import CloseIcon from '@mui/icons-material/Close';
 const NavBar = () => {
   const [showlist, setShowList] = useState(false)
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth > 720) {
-        window.location.reload(); // Reload page to reset state when screen gets wider
-      }
-    };
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     if (window.innerWidth > 720) {
+  //       window.location.reload(); // Reload page to reset state when screen gets wider
+  //     }
+  //   };
 
-    window.addEventListener('resize', handleResize);
+    // window.addEventListener('resize', handleResize);
     
     // Clean up event listener on unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+  // }, []);
 
   return (
     <nav>

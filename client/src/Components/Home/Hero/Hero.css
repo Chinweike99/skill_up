@@ -1,4 +1,5 @@
 .hero{
+    /* max-height: 70%; */
 }
 
 .heroContainer{
@@ -9,7 +10,7 @@
     height: 100vh;
     background-size: cover;
     background-position: top;
-    /* animation: bgChange 60s linear infinite; */
+    animation: bgChange 60s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,4 +78,135 @@
     word-spacing: 4px;
     letter-spacing: 2px;
     font-family: sans-serif;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+
+  @keyframes slidein {
+    from {
+      translate: 0 150vh;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+  
+
+
+
+.heroWrite h3{
+    font-size: 1.8rem;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    animation: slideOut 6s linear;
+}
+
+
+@keyframes slideOut {
+    from {
+      translate: 150vw 0;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+
+
+.heroContainer .heroMessage{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    z-index: 2;
+    font-size: 1.3rem;
+    max-width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+    animation-duration: 2s;
+    animation-name: slideInfinite;
+}
+
+
+
+@keyframes slideInfinite {
+    from {
+      translate: 0 150vh;
+      scale: 200% 1;
+    }
+  
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+
+
+.heroContainer button{
+    margin-top: 2rem;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.5rem;
+    border: none;
+    color: var(--text-color);
+    border-radius: 35px;
+    background: var(--bg-color);
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+  .heroContainer button:hover {
+    background: #000;
+    color: #fff;
+    transform: scale(1.1);
+  }
+
+@media screen and (max-width: 1000px) {
+    .heroContainer h1{
+        font-size: 3rem;
+    }
+    .heroContainer h3{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .heroContainer h1{
+        font-size: 2.3rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .heroContainer h1{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .heroWrite h1{
+        font-size: 1.3rem;
+    }
+    .heroContainer h3{
+        font-size: 0.8rem;
+    }
+    .heroContainer .heroMessage{
+        font-size: 0.8rem;
+    }
+    .heroMessage .hideSmScreen{
+        display: none;
+    }
+    .heroContainer button{
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+    }
 }
