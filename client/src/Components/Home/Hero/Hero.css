@@ -103,23 +103,19 @@
     word-spacing: 4px;
     letter-spacing: 2px;
     font-family: sans-serif;
-    animation: slideOut 6s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scrollText 10s linear infinite;
 }
 
-
-@keyframes slideOut {
-    from {
-      translate: 150vw 0;
-      scale: 200% 1;
+  @keyframes scrollText {
+    0% {
+      transform: translateX(-100%);
     }
-  
-    to {
-      translate: 0 0;
-      scale: 100% 1;
+    100% {
+      transform: translateX(100%);
     }
   }
-
-
 
 .heroContainer .heroMessage{
     margin-top: 2rem;
