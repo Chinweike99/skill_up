@@ -1,5 +1,6 @@
 nav{
     background: var(--bg-color);
+    /* background: #03A9F4; */
     position: sticky;
     top: 0;
     z-index: 999;

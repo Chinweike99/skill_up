@@ -1,7 +1,18 @@
 .skillContainer{
     padding: 4rem;
+    text-align: center;
 }
 
+.skillContainer h1{
+    text-align: center;
+}
+
+.skillContainer p{
+    text-align: center;
+    margin: 2rem 15%;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
 .onlineSkill{
     
     display: grid;
@@ -32,5 +43,43 @@
 .tech span{
     letter-spacing: 1px;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: center;
+    margin-top: 1.3rem;
+    font-size: 1.1rem;
+}
+.tech span b{
+    color: var(--bg-color);
+    font-size: 1.3rem;
+}
+.tech span b:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .onlineSkill{
+        display: flex;
+        flex-direction: column;
+        /* grid-template-columns: 1fr; */
+    }
+    .onlineSkill .tech{
+        display: flex;
+        flex-direction: column;
+        background: black;
+        /* width: 90%; */
+        margin: 0 5%;
+        padding: 2rem;
+        height: 25rem;
+        overflow: hidden;
+    }
+    
+    .tech .skillVid{
+        height: 13rem;
+        width: 100%;
+    }
+    .skillContainer p{
+        text-align: center;
+        margin: 2rem 2%;
+        width: 100%;
+    }
 }
