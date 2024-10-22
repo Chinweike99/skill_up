@@ -126,7 +126,7 @@
     color: var(--text-color);
     z-index: 2;
     font-size: 1.3rem;
-    max-width: 50%;
+    width: 50%;
     text-align: center;
     letter-spacing: 2px;
     animation-duration: 2s;
@@ -174,12 +174,17 @@
     .heroContainer h3{
         font-size: 1.2rem;
     }
+    .heroContainer .heroMessage{
+        width: 100%;
+        padding: 0 2rem;
+    }
 }
 
 @media screen and (max-width: 750px){
     .heroContainer h1{
         font-size: 2.3rem;
     }
+    
 }
 @media screen and (max-width: 600px){
     .heroContainer h1{
