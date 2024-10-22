@@ -72,8 +72,8 @@ export const benefitsContent2 = [
         title: "Unlock a Community of Support",
         details: "When you join SkillUp, you’re not just learning on your own. You’re becoming part of a community of learners, mentors, and professionals who support your growth and encourage you to reach your full potential."
     },
-    {
-        title: "Access Learning Anytime, Anywhere",
-        details: "With the convenience of online courses and a mobile app, you can continue learning no matter where life takes you. Your progress is always within reach."
-    },
+    // {
+    //     title: "Access Learning Anytime, Anywhere",
+    //     details: "With the convenience of online courses and a mobile app, you can continue learning no matter where life takes you. Your progress is always within reach."
+    // },
 ]

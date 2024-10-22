@@ -75,7 +75,7 @@
     margin-bottom: 0.2rem;
     display: none;
     -webkit-box-shadow: -1px -1px 23px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: -1px -1px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 23px 0px rgba(0,0,0,0.75);
     box-shadow: -1px -1px 23px 0px rgba(0,0,0,0.75);
     position: absolute;
     top: 2.7rem;
@@ -97,7 +97,7 @@
     }
 }
 
-.benefitSelect .option p:hover{
+.positionSet p:hover{
     transform: scale(1.1);
 }
 
