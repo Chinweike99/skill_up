@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Featured.css'
 import { assetsVideo } from '../../../assets/assetsVideos'
+import CloseIcon from '@mui/icons-material/Close';
 
 const Featured = () => {
+  const [registered, setRegistered] = useState(true)
+  const [showSignup, setSignUp] = useState(false)
+
   return (
     <div>
       <div className='skillContainer'>
@@ -102,8 +106,52 @@ const Featured = () => {
           </div>
         </div>
 
-          <button>Join us today→</button>
+          <button onClick={()=>setSignUp(true)}>Join us today→</button>
+
+          {showSignup? 
+          <div className='featureForm' >
+            <div className='formContainer'>
+              <CloseIcon onClick={()=>setSignUp(!showSignup)} className='closeIcon'/>
+              <h3>{registered? "Rgister with" :  "Signin to"}  <i> skillUp </i> </h3>
+
+              <form action="">
+                {registered ? 
+                <div>
+                  <input type="text" placeholder='First name'/>
+                  <input type="text" placeholder='Last name'/>
+                </div>
+                : null}
+
+                <div>
+                  <input type="email" placeholder='your email address'/>
+                  {registered? 
+                  <input type="number" placeholder='Mobile'/>
+                  :null}
+                </div>
+
+                {registered? 
+                <div>
+                  <input type="text" placeholder='Home address'/>
+                </div>
+                :null}
+
+                <div>
+                  <input type="password" placeholder='Password'/>
+                  {registered? 
+                  <input type="password" placeholder='Confirm Password'/>
+                  :null}
+                </div>
+
+                <button>Submit</button>
+              </form>
+              <button onClick={()=>setRegistered(!registered)}> 
+                {registered ? "Sign in" : "Rgister"}
+              </button>
+            </div>
+          </div>
+          :null}
       </div>
+      
     </div>
   )
 }

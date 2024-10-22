@@ -1,6 +1,7 @@
 .skillContainer{
     padding: 4rem;
     text-align: center;
+    position: relative;
 }
 
 .skillContainer h1{
@@ -113,6 +114,7 @@
 -moz-box-shadow: 1px 0px 15px 2px rgba(0,0,0,0.75);
     cursor: pointer;
     transition: all 0.5s ease;
+    z-index: -2;
 }
 
 .moreFeat:hover{
@@ -135,7 +137,7 @@
 
 .skillContainer button{
     margin-top: 3rem;
-    padding: 0.5rem 1.4rem;
+    padding: 0.8rem 1.4rem;
     font-size: 1.2rem;
     border: none;
     border-radius: 25px;
@@ -154,9 +156,75 @@
     font-weight: 700;
 }
 
-
 @media screen and (max-width: 700px) {
     .moreFeatureContainer .hideSection{
         display: none;
     }
+}
+
+.skillContainer .featureForm{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    opacity: 0;
+    width: 100%;
+    /* padding-top: 90rem; */
+    /* display: none; */
+    animation: pop-up 0.4s ease-in-out forwards;
+}
+
+
+@keyframes pop-up{
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.featureForm .formContainer{
+    padding: 2rem;
+    background: #fff;
+    opacity: 1;
+    z-index: 2;
+    width: 40rem;
+    margin-top: 105rem;
+    border-radius: 1rem;
+}
+
+.formContainer form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+
+.formContainer form div{
+    display: flex;
+    gap: 1rem;
+}
+
+.formContainer form input{
+    height: 2.5rem;
+    width: 100%;
+    padding-left: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.formContainer .closeIcon{
+    float: right;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.featureForm .formContainer form button{
+    border-radius: 3px;
 }
