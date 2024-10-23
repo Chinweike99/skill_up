@@ -6,6 +6,8 @@
 
 .skillContainer h1{
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .skillContainer p{
@@ -88,6 +90,7 @@
 .skillContainer .featuresh3{
     margin: 2rem 0;
     font-size: 2.3rem;
+    letter-spacing: 4px;
 }
 
 

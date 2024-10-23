@@ -1,15 +1,35 @@
 .body {
     position: relative;
     height: 100%;
+    text-align: center;
   }
   
   .body {
     background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #000;
     margin: 0;
-    padding: 0;
+    padding: 4rem 0;
+    /* margin-top: 2rem; */
+  }
+
+.body .testimonies h3{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    /* font-family: sans-serif; */
+  }
+  .body .testimonies span{
+    letter-spacing: 3px;
+    font-size: 0.9rem;
+  }
+  
+  .body .testimonies small{
+    letter-spacing: 3px;
+    font-size: 0.7rem;
+    color: red;
+    font-style: italic;
+
   }
   
   .swiper {
@@ -22,12 +42,61 @@
     background-position: center;
     background-size: cover;
     width: 300px;
-    height: 500px;
+    height: 450px;
+    padding: 1rem;
+    border: solid 2px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #fff;
+    background: black;
+    box-shadow: 1px 1px 36px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 36px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 36px 0px rgba(0,0,0,0.75);
   }
   
   .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
   }
-  
+  .sliderDiv{
+    padding: 1rem;
+    background-color: red;
+  }
+
+  .swiper-slide .sliderContainer {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.6rem;
+  }
+  .sliderContainer .testimonyAbout{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+  }
+
+  .sliderContainer .testimonyAbout p{
+    font-size: 0.9rem;
+  }
+  .sliderContainer .testimonyAbout span{
+    font-size: 0.7rem;
+    font-style: italic;
+    color: rgb(219, 212, 212);
+  }
+
+  @media screen and (max-width: 750px) {
+    .swiper-slide {
+        width: 300px;
+        height: 350px;
+      }
+  }

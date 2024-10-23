@@ -10,6 +10,8 @@
     font-family: sans-serif;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .benefitsMain h3:hover {
@@ -19,6 +21,7 @@
 .benefitsMain h3 span{
     color: black;
     font-size: 1.8rem;
+    text-transform: none;
 }
 
 .Benefits{

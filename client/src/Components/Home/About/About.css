@@ -7,6 +7,9 @@
     margin-bottom: 3rem;
     animation-duration: 5s;
     animation-name: slidein;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* font-family: sans-serif; */
 }
 
 @keyframes slidein {

@@ -18,6 +18,11 @@ import { testimonialsContent } from '../../../assets/assetsVideos';
 const Testimonials = () => {
   return (
     <div className='body'>
+        <div className='testimonies'>
+            <h3>Testimonies.</h3>
+            <span>See How SkillUp Made a Difference.</span> <br />
+            <small>Disclaimer: These testimonials are fictional and for illustrative purposes only.</small>
+        </div>
         <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -39,17 +44,19 @@ const Testimonials = () => {
             
             testimonialsContent.map((items, index)=>{
                 return(
-                    <div>
+                    <div key={index} className='sliderDiv'>
                         <SwiperSlide>
                         <p>{items.testimony}</p>
-                        <div>
+                        <div className='sliderContainer'>
                             <img src={items.img} alt="" />
-                            <div>
+                            <div className='testimonyAbout'>
                                 <p>{items.name}</p>
                                 <span>{items.occupation}</span>
                             </div>
                         </div>
+                      
                         </SwiperSlide>
+                        
                     </div>
                     
                 )

@@ -35,7 +35,7 @@ export const testimonialsContent = [
     
     {
         testimony: "I always struggled with finding a reliable platform that combines both theoretical and practical learning. SkillUp's approach made digital marketing easy to understand, and the mentors were always available to guide me. It’s the best decision I’ve made for my career growth!",
-        img: adichieWriter,
+        img: deborah,
         name: "Amaka Eze",
         occupation: "Digital Marketing Specialist"
     },
