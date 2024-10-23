@@ -1,0 +1,43 @@
+
+.footer{
+    background: black;
+    color: #fff;
+    padding: 2rem ;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footerContainer .footerContent{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: rgb(188, 193, 192);
+}
+.footerContent h3{
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+.footerContainer .footerContent ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    justify-content: center;
+}
+.footerContainer .footerContent ul li{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.8rem;
+    
+}
+.icons ul{
+    align-items: center;
+}
+.footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+}
