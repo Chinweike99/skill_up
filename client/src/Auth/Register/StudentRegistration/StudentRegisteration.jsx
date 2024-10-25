@@ -3,7 +3,9 @@ import './Student.css'
 
 const StudentRegisteration = () => {
   return (
-    <div>Register</div>
+    <div>
+      Register as a Student ...
+    </div>
   )
 }
 

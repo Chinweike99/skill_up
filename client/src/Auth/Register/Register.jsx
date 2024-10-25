@@ -2,6 +2,7 @@ import React from 'react'
 import './Register.css'
 import SchoolIcon from '@mui/icons-material/School';
 import Person3Icon from '@mui/icons-material/Person3';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
   return (
@@ -14,7 +15,10 @@ const Register = () => {
                 <p>
                 Unlock a world of possibilities. Gain new skills, advance your career, and learn from experienced coaches. Whether you're looking to master a craft or develop professional skills, SkillUp is your gateway to growth.
                 </p>
-                <button>Signup</button>
+                <Link to={"/student"}>
+                    <button>Signup</button>
+                </Link>
+                
             </div>
 
 
@@ -24,7 +28,9 @@ const Register = () => {
                 <p>
                 Share your expertise and inspire the next generation of learners. Join SkillUp as a coach to mentor students, impart valuable knowledge, and make a meaningful impact on people's lives. Expand your reach and grow your influence.
                 </p>
-                <button>Signup</button>
+                <Link to={"/coach"}>
+                    <button>Signup</button>
+                </Link>
             </div>
         </div>
     </div>
