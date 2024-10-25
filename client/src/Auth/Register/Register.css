@@ -1,0 +1,90 @@
+.register{
+    background: var(--bg-color);
+    
+}
+
+.registerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 15% 10%;
+    background: var(--bg-color);
+    padding-bottom: 100%;
+}
+
+.regContent{
+    padding: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px grey;
+    border-radius: 2.5rem;
+    transition: all 0.4s ease-in;
+    font-family: sans-serif;
+    color: #fff;
+}
+.regContent:hover{
+    background: black;
+    color: #fff;
+    transform: scale(1.05);
+}
+.regcontent2{
+    background: black;
+}
+.regcontent2:hover{
+    background: var(--bg-color);
+    color: #fff;
+    /* transform: scale(1.1); */
+}
+
+.regContent p{
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.regContent button{
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    border: none;
+}
+.regContent button:hover{
+    /* background: black;
+    color: #fff; */
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 790px) {
+    .registerContainer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .registerContainer{
+        padding: 15% 5%;
+    }
+    .regContent p{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .regContent h1{
+        font-size: 1.3rem;
+    }
+    .regContent{
+        padding: 1rem 0.7rem;
+    }
+    .regContent button{
+        padding: 0.4rem 1.2rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+    }
+    
+}
