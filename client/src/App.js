@@ -1,29 +1,30 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from './Components/NavBar/NavBar';
-import Footer from './Components/Footer/Footer';
-import Home from './Pages/Home';
-import Courses from './Pages/Courses';
-import Explore from './Pages/Explore';
-import Communities from './Pages/Communities';
-import Resources from './Pages/Resources';
+import Routing from './Pages/Route';
+import Login from './Auth/Login/Login';
+import CoachRegistration from './Auth/Register/CoachRegistration/CoachRegistration';
+import StudentRegisteration from './Auth/Register/StudentRegistration/StudentRegisteration';
 import Register from './Auth/Register/Register';
+
+/**
+ * 
+ * @returns The path "/*" in <Route path="/*" element={<Routing />} />
+ * matches any route under /, /courses, /explore, etc., and
+ * renders the Routing component.
+ */
 
 function App() {
   return (
     <div className="App">
       
       <Router>
-      <NavBar />
         <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/courses' element={<Courses />}/>
-          <Route path='/explore' element={<Explore />}/>
-          <Route path='/communities' element={<Communities />}/>
-          <Route path='/resources' element={<Resources />}/>
+          <Route path='/*' element={<Routing />}/>
+          <Route path='/student' element={<StudentRegisteration />}/>
+          <Route path='/coach' element={<CoachRegistration />}/>
           <Route path='/register' element={<Register />}/>
+          <Route path='/login' element={<Login />}/>
         </Routes>
-        <Footer />
       </Router>
 
     </div>
