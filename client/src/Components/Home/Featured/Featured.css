@@ -2,6 +2,8 @@
     padding: 4rem;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .skillContainer h1{
@@ -12,7 +14,7 @@
 
 .skillContainer p{
     text-align: center;
-    margin: 2rem 15%;
+    margin: 2rem 8%;
     font-size: 1.3rem;
     letter-spacing: 1px;
 }
@@ -48,7 +50,7 @@
     margin-top: 1.3rem;
     font-size: 1.1rem;
 }
-.tech span b{
+.tech p b{
     color: var(--bg-color);
     font-size: 1.3rem;
 }
@@ -80,6 +82,15 @@
         text-align: center;
         margin: 2rem 2%;
         width: 100%;
+    }
+    .moreFeat h4{
+        font-size: 0.92rem;
+    }
+    .moreFeat span{
+        font-size: 0.8rem;
+    }
+    .featureSection .moreFeat p{
+        font-size: 0.8rem;
     }
 }
 
@@ -122,6 +133,17 @@
     text-align: left;
     margin: 0.4rem 0;
     font-family:  serif;
+    font-size: 0.8rem;
+}
+
+.moreFeat h4{
+    font-size: 0.92rem;
+}
+.moreFeat span{
+    font-size: 0.8rem;
+}
+.featureSection .moreFeat p{
+    font-size: 0.8rem;
 }
 .moreFeat h4{
     color: var(--bg-color);
@@ -152,6 +174,66 @@
     transform: scale(1.1);
     font-weight: 700;
 }
+
+@media screen and (max-width: 470px) {
+    .moreFeat {
+        text-align: left;
+    }
+    .moreFeat span{
+        font-size: 0.75rem;
+    }
+    .moreFeat h4{
+        font-size: 0.8rem;
+    }
+    .featureSection .moreFeat p{
+        margin-left: 0;
+        font-size: 0.8rem;
+    }
+    .skillContainer{
+        padding: 4rem 0.8rem;
+        text-align: justify;
+        align-items: center;
+        justify-content: left;
+    }
+    .skillContainer p{
+        text-align: justify;
+        margin: 2rem 3%;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .onlineSkill .tech{
+        height: 16rem;
+        width: 100%;
+        margin: auto 0;
+    }
+    
+    .tech .skillVid{
+        height: 11rem;
+        width: 100%;
+    }
+    .onlineSkill{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .tech p b{
+        font-size: 0.8rem;
+    }
+    .tech p span{
+        display: none;
+    }
+    .skillContainer p{
+        margin: 1rem 8%;
+        /* font-size: 0.7rem ; */
+    }
+    .skillContainer .featuresh3{
+        font-size: 1.5rem;
+    }
+}
+
+
+
 
 @media screen and (max-width: 700px) {
     .moreFeatureContainer .hideSection{

@@ -3,7 +3,7 @@ import React from 'react'
 const Explore = () => {
   return (
     <div>
-       <h1>STILL IN PRODUCTION</h1>
+       <h1>EXPLORE STILL IN PRODUCTION</h1>
     </div>
   )
 }

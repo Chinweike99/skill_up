@@ -20,12 +20,11 @@ const NavBar = () => {
           style={{color: "#fff", fontSize: "3rem"}}/>
           <ul>
            
-            <li className='popIn'> <Link to={"/courses"}>Home</Link></li>
-             {/* <li className='popIn'><Link to="/courses">Courses</Link></li> */}
-            <li className='popIn'><a href="">Courses</a></li>
-            <li className='popIn'><a href="">Explore</a></li>
-            <li className='popIn'><a href="">Communities</a></li>
-            <li className='popIn'><a href="">Resources</a></li>
+          <li className='popIn' onClick={()=>setShowList(!showlist)}> <Link to={"/"}>Home</Link></li>
+            <li onClick={()=>setShowList(!showlist)}><Link to={"/courses"}>Courses</Link></li>
+            <li onClick={()=>setShowList(!showlist)}><Link  to={"/explore"}>Explore</Link></li>
+            <li onClick={()=>setShowList(!showlist)}><Link to={"/communities"}>Communities</Link></li>
+            <li onClick={()=>setShowList(!showlist)}><Link to={"/resources"}>Resources</Link></li>
           </ul>
         </div>
 

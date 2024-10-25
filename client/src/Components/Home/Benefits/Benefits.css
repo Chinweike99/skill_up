@@ -112,6 +112,7 @@
 @media screen and (max-width: 1000px) {
     .Benefits{
         flex-direction: column;
+        padding: 1.5rem 0;
     }
     .benefitsOptions .benefitSelect{
         flex-direction: column;

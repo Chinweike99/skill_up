@@ -3,7 +3,7 @@ import React from 'react'
 const Communities = () => {
   return (
     <div>
-       <h1>STILL IN PRODUCTION</h1>
+       <h1>COMMUNITIES DEVELOPMENT STILL IN PRODUCTION</h1>
     </div>
   )
 }
