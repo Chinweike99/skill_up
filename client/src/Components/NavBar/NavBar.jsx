@@ -25,6 +25,7 @@ const NavBar = () => {
             <li onClick={()=>setShowList(!showlist)}><Link  to={"/explore"}>Explore</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/communities"}>Communities</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/resources"}>Resources</Link></li>
+            <li onClick={()=>setShowList(!showlist)}><Link to={"/resources"}><button>Login</button></Link></li>
           </ul>
         </div>
 
