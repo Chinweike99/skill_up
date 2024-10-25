@@ -7,6 +7,7 @@ import Courses from './Pages/Courses';
 import Explore from './Pages/Explore';
 import Communities from './Pages/Communities';
 import Resources from './Pages/Resources';
+import Register from './Auth/Register/Register';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/explore' element={<Explore />}/>
           <Route path='/communities' element={<Communities />}/>
           <Route path='/resources' element={<Resources />}/>
+          <Route path='/register' element={<Register />}/>
         </Routes>
         <Footer />
       </Router>
