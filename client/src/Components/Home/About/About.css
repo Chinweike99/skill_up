@@ -34,7 +34,7 @@
 
 .aboutContent .videoContainer {
   width: 40%;
-  height: 30rem;
+  height: 20rem;
   background: black;
   border: none;
   border-radius: 2rem;
@@ -42,18 +42,18 @@
 }
 .aboutContent .videoContainer .aboutVid{
   width: 100%;
-  height: 30rem;
+  height: 19rem;
 }
 
 .aboutContent .aboutInfo{
   width: 50%;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: justify;
   overflow: hidden;
   animation: scrollText ;
 }
 .aboutContent .aboutInfo p{
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* @keyframes scrollText {
@@ -86,18 +86,18 @@
 @media screen and (max-width: 470px) {
   .aboutContent .videoContainer {
     width: 100%;
-    height: 20rem;
+    height: 12rem;
   }
   .aboutUs{
     padding: 4rem 1rem;
     background-color: #c9dde8;
 }
 .aboutContent .videoContainer .aboutVid{
-  height: 20rem;
+  height: 11rem;
 }
 .aboutInfo p {
   text-align: justify;
-  font-size: 2rem;
+  font-size: 1rem;
   letter-spacing: 1px;
 }
 

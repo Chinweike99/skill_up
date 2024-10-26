@@ -22,7 +22,7 @@ const Featured = () => {
             <video className='skillVid' src={assetsVideo.programming} autoPlay controls muted loop/>
             <p><b>Learn Today, Lead Tomorrow.</b> <br />
             <span>
-              Empower yourself with digital skills that drive the future. Dive into programming, marketing, writing, and more. Each video offers a glimpse into what you can achieve, with SkillUp guiding you beyond the basics to real-world applications.
+              Empower yourself with digital skills that drive the future. Dive into programming, marketing, writing, and more. with SkillUp guiding you beyond the basics to real-world applications.
             </span>
             </p>
           </div>
@@ -32,7 +32,7 @@ const Featured = () => {
             <p>
             <b> Craft Your Path to Success.</b> <br />
             <span>
-             Master practical skills that open doors to rewarding careers. From tailoring to other hands-on trades, these videos demonstrate the art of craftsmanship. SkillUp is here to help you build not just skills, but a sustainable livelihood.
+             Master practical skills that open doors to rewarding careers. From tailoring to other hands-on trades. SkillUp is here to help you build not just skills, but a sustainable livelihood.
             </span>
               </p>
           </div>
