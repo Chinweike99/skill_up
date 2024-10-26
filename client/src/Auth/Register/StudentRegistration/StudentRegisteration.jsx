@@ -1,5 +1,6 @@
 import React from 'react'
 import './StudentReg.css'
+import { Link } from 'react-router-dom'
 
 const StudentRegisteration = () => {
   return (
@@ -7,12 +8,16 @@ const StudentRegisteration = () => {
       <div className='studentRegCon'>
         <form>
         <h4>Welcome to our Learners programme</h4>
-          <input type="text" placeholder='username'/>
-          <input type="email" placeholder='@example.com'/>
-          <input type="password" placeholder='Password'/>
-          <input type="password" placeholder='Confirm Password'/>
+          <input required type="text" placeholder='username'/>
+          <input required type="email" placeholder='@example.com'/>
+          <input required type="password" placeholder='Password'/>
+          <input required type="password" placeholder='Confirm Password'/>
           <button> Submit</button>
-          <p>Have an account? <span>sign in</span></p>
+          <p>Have an account?
+            <Link to={"/studentlogin"}>
+              <span>sign in</span>
+            </Link> 
+          </p>
         </form>
         
       </div>

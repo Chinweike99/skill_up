@@ -9,19 +9,20 @@ const Register = () => {
     <div className='register'>
         <div className='registerContainer'>
 
-            <div className='regContent'>
-                <SchoolIcon style={{fontSize: "3rem"}}/>
-                <h1>Register as a Learner</h1>
-                <p>
-                Unlock a world of possibilities. Gain new skills, advance your career, and learn from experienced coaches. Whether you're looking to master a craft or develop professional skills, SkillUp is your gateway to growth.
-                </p>
-                <Link to={"/student"}>
-                    <button className='regBtn'>Signup</button>
-                </Link>
-                
-            </div>
+            <Link to={"/student"}>
+                <div className='regContent'>
+                    <SchoolIcon style={{fontSize: "3rem"}}/>
+                    <h1>Register as a Learner</h1>
+                    <p>
+                    Unlock a world of possibilities. Gain new skills, advance your career, and learn from experienced coaches. Whether you're looking to master a craft or develop professional skills, SkillUp is your gateway to growth.
+                    </p>
+                    <Link to={"/student"}>
+                        <button className='regBtn'>Signup</button>
+                    </Link>
+                </div>
+            </Link>
 
-
+            <Link to={"/coach"}>
             <div className='regContent regcontent2'>
                 <Person3Icon style={{fontSize: "3rem"}}/>
                 <h1>Register as a Coach</h1>
@@ -32,6 +33,7 @@ const Register = () => {
                     <button>Signup</button>
                 </Link>
             </div>
+            </Link>
         </div>
     </div>
   )
