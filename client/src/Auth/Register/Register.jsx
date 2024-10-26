@@ -16,7 +16,7 @@ const Register = () => {
                 Unlock a world of possibilities. Gain new skills, advance your career, and learn from experienced coaches. Whether you're looking to master a craft or develop professional skills, SkillUp is your gateway to growth.
                 </p>
                 <Link to={"/student"}>
-                    <button>Signup</button>
+                    <button className='regBtn'>Signup</button>
                 </Link>
                 
             </div>

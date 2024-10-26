@@ -23,15 +23,17 @@
     border-radius: 2.5rem;
     transition: all 0.4s ease-in;
     font-family: sans-serif;
-    color: #fff;
+    color: black;
+    background: #fff;
 }
 .regContent:hover{
-    background: black;
-    color: #fff;
+    background: transparent;
     transform: scale(1.05);
+    color: #fff;
 }
 .regcontent2{
     background: black;
+    color: #fff;
 }
 .regcontent2:hover{
     background: var(--bg-color);
@@ -54,9 +56,12 @@
     transition: all 0.5s ease-in;
     border: none;
 }
+
+.regBtn{
+    background: black;
+    color: #fff;
+}
 .regContent button:hover{
-    /* background: black;
-    color: #fff; */
     transform: scale(1.1);
 }
 
