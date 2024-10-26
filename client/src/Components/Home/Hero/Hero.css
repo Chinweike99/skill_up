@@ -1,5 +1,5 @@
 .hero{
-    /* max-height: 70%; */
+    max-height: 70%;
 }
 
 .heroContainer{
@@ -178,17 +178,26 @@
         width: 100%;
         padding: 0 2rem;
     }
+    .heroContainer{
+        height: 60vh;
+    }
 }
 
 @media screen and (max-width: 750px){
     .heroContainer h1{
         font-size: 2.3rem;
     }
+    .heroContainer{
+        height: 40vh;
+    }
     
 }
 @media screen and (max-width: 600px){
     .heroContainer h1{
         font-size: 1.8rem;
+    }
+    .hero{
+        max-height: 50%;
     }
 }
 
