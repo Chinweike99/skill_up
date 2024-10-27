@@ -21,7 +21,7 @@ const CoachRegistration = () => {
           <input required type="password" placeholder='Confirm Password'/>
           <button> Submit</button>
           <p>Have an account? 
-          <Link to={"/coachlogin"}>
+          <Link to={"/login"}>
               <span>sign in</span>
             </Link> 
           </p>

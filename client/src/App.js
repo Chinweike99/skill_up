@@ -5,8 +5,7 @@ import Routing from './Pages/Route';
 import CoachRegistration from './Auth/Register/CoachRegistration/CoachRegistration';
 import StudentRegisteration from './Auth/Register/StudentRegistration/StudentRegisteration';
 import Register from './Auth/Register/Register';
-import StudentLogin from './Auth/Login/StudentLogin/StudentLogin';
-import CoachLogin from './Auth/Login/CoachLogin/CoachLogin';
+import Login from './Auth/Login/Login';
 
 /**
  * 
@@ -25,8 +24,7 @@ function App() {
           <Route path='/student' element={<StudentRegisteration />}/>
           <Route path='/coach' element={<CoachRegistration />}/>
           <Route path='/register' element={<Register />}/>
-          <Route path='/studentlogin' element={<StudentLogin />}/>
-          <Route path='/coachlogin' element={<CoachLogin/>}/>
+          <Route path='/login' element={<Login/>}/>
         </Routes>
       </Router>
 

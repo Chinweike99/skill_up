@@ -42,7 +42,7 @@ const NavBar = () => {
             <li><Link  to={"/explore"}>Explore</Link></li>
             <li><Link to={"/communities"}>Communities</Link></li>
             <li><Link to={"/resources"}>Resources</Link></li>
-            <li><Link to={"/register"}> <button>Login</button> </Link></li>
+            <li><Link to={"/login"}> <button>Login</button> </Link></li>
           </ul>
         </div>
       </div>

@@ -14,7 +14,7 @@ const StudentRegisteration = () => {
           <input required type="password" placeholder='Confirm Password'/>
           <button> Submit</button>
           <p>Have an account?
-            <Link to={"/studentlogin"}>
+            <Link to={"/login"}>
               <span>sign in</span>
             </Link> 
           </p>
