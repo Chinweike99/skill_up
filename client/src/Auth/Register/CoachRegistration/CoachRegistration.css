@@ -83,13 +83,12 @@ form button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 100px) {
-    .studentRegCon form{
-        width: 80%;
-    }
-}
 @media screen and (max-width: 500px) {
     .studentRegCon form{
         width: 80%;
+    }
+    .coachReg{
+        display: flex;
+        flex-direction: column;
     }
 } 
