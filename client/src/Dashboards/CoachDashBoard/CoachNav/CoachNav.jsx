@@ -5,10 +5,10 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import { assetsVideo } from '../../../assets/assetsVideos';
 import './CoachNav.css'
 
-const CoachNav = () => {
+const Header = () => {
   return (
     <div className='coachContainer'>
-        <nav>
+        <header>
             <div className='coachSearch'>
                 <input type="search" placeholder='search' />
                 <SearchIcon className='search'/>
@@ -24,9 +24,9 @@ const CoachNav = () => {
                 <p>Amanda</p>
                 <img src={assetsVideo.Amaka} alt="Coach" />
             </div>
-        </nav>
+        </header>
     </div>
   )
 }
 
-export default CoachNav
+export default Header

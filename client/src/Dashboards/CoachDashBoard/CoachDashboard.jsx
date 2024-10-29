@@ -1,10 +1,13 @@
 import React from 'react'
-import CoachNav from './CoachNav/CoachNav'
+import Header from './CoachNav/CoachNav'
+import CoachSiderBar from './CoachSideBar/CoachSiderBar'
+import './CoachDash.css'
 
 const CoachDashboard = () => {
   return (
-    <div>
-        <CoachNav />
+    <div className='Maindashboard'>
+        <CoachSiderBar/>
+        <Header />
     </div>
   )
 }

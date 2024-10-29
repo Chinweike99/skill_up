@@ -1,16 +1,17 @@
 .coachContainer{
     padding: 2rem;
     font-family: sans-serif;
+    flex: 1;
 }
 
-.coachContainer nav{
+.coachContainer header{
     background: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
 }
-nav .coachSearch{
+header .coachSearch{
     display: flex ;
     width: 40%;
     align-items: center;
@@ -35,14 +36,14 @@ nav .coachSearch{
     color: var(--black-font-color);
 }
 
-nav .coachDash{
+header .coachDash{
     display: flex;
     align-items: center;
     gap: 1rem;
     font-size: 1.3rem;
 }
 
-nav .coachInfo{
+header .coachInfo{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +51,7 @@ nav .coachInfo{
     font-family: cursive;
     cursor: pointer;
 }
-nav .coachInfo img{
+header .coachInfo img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
