@@ -4,6 +4,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { assetsVideo } from '../../../assets/assetsVideos';
 import './CoachNav.css'
+import Overview from '../../Overview/Overview';
 
 const Header = () => {
   return (
@@ -25,6 +26,7 @@ const Header = () => {
                 <img src={assetsVideo.Amaka} alt="Coach" />
             </div>
         </header>
+        <Overview />
     </div>
   )
 }

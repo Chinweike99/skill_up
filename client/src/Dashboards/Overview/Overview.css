@@ -1,0 +1,114 @@
+.overView{
+    display: flex;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.mainOverview{
+    width: 75%;
+}
+.mainContent .overviewSelector{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.mainContent{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.mainContent .numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+.overviewSelector .overviewLike span{
+    margin: 0 0.6rem;
+}
+
+.overviewSelector h4{
+    font-size: 1.8rem;
+}
+
+.overviewSelector .overviewLike span::before{
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.overviewLike span:nth-child(1)::before {
+    background-color: #ff6b6b;
+  }
+  
+  .overviewLike span:nth-child(2)::before {
+    background-color: #4ecca3;
+  }
+  
+  .overviewLike span:nth-child(3)::before {
+    background-color: #3498db;
+  }
+
+
+
+  /* POST ACTIViTY **************/
+.postActivity{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 ;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.postActivity .overviewMessage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postActivity .overviewMessage img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.postActivity .overviewActivity{
+    display: flex;
+    flex-direction: column;
+    gap: 0.56rem;
+}
+
+
+/******* Student *********/
+.studentsActivity{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.studentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.studentContainer h4{
+    font-size: 2rem;
+}
+.studentContainer h1{
+    font-size: 4rem;
+    color: grey;
+}
+
+.studentContainer .studentTotal{
+    display: flex;
+    justify-content: space-between;
+}
