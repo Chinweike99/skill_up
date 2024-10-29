@@ -12,6 +12,9 @@ const Login = () => {
           <input required type="password" placeholder='Password'/>
           <button>Login</button>
         </form>
+        <Link to={'/coachdashboard'}>
+          <p>Dashboard</p>
+        </Link>
         <p>Dont have an account? 
         <Link to={"/register"}>
               <span>register</span>

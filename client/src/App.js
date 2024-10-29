@@ -6,6 +6,7 @@ import CoachRegistration from './Auth/Register/CoachRegistration/CoachRegistrati
 import StudentRegisteration from './Auth/Register/StudentRegistration/StudentRegisteration';
 import Register from './Auth/Register/Register';
 import Login from './Auth/Login/Login';
+import CoachDashboard from './Dashboards/CoachDashBoard/CoachDashboard';
 
 /**
  * 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/coach' element={<CoachRegistration />}/>
           <Route path='/register' element={<Register />}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/coachdashboard' element={<CoachDashboard />}/>
         </Routes>
       </Router>
 

@@ -48,6 +48,9 @@ form .coachReg{
     display: flex;
     gap: 4px;
 }
+form .coachReg input{
+    width: 50%;
+}
 
 form input{
     height: 2.5rem;
@@ -83,12 +86,19 @@ form button{
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-    .studentRegCon form{
-        width: 80%;
-    }
+@media screen and (max-width: 700px) {
     .coachReg{
         display: flex;
         flex-direction: column;
+    }
+    form .coachReg input{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .studentRegCon form{
+        width: 80%;
     }
 } 
