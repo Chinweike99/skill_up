@@ -1,3 +1,58 @@
+.coachContainer{
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
 .coachContainer nav{
     background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+nav .coachSearch{
+    display: flex ;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.6rem;
+    height: 2.3rem;
+    border: solid 1px grey;
+    overflow: hidden;
+}
+.coachSearch input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-right: solid 2px grey;
+    background: transparent;
+}
+.coachSearch .search{
+    font-size: 2rem;
+    color: var(--black-font-color);
+}
+
+nav .coachDash{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+nav .coachInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: cursive;
+    cursor: pointer;
+}
+nav .coachInfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
 }

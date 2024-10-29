@@ -11,13 +11,13 @@ const CoachNav = () => {
         <nav>
             <div className='coachSearch'>
                 <input type="search" placeholder='search' />
-                <SearchIcon />
+                <SearchIcon className='search'/>
             </div>
             
             <div className='coachDash'>
                 <h3>Dashboard</h3>
-                <MessageIcon />
-                <NotificationsIcon />
+                <MessageIcon className='search'/>
+                <NotificationsIcon className='search'/>
             </div>
 
             <div className='coachInfo'>
