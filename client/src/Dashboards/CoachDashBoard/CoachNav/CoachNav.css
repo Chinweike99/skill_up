@@ -34,7 +34,7 @@ header .coachSearch{
 }
 .coachSearch .search{
     font-size: 2rem;
-    color: var(--black-font-color);
+    /* color: var(--black-font-color); */
 }
 
 header .coachDash{
