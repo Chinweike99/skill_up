@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 import './Featured.css'
 import { assetsVideo } from '../../../assets/assetsVideos'
 import CloseIcon from '@mui/icons-material/Close';
+import Login from '../../../Auth/Login/Login';
+import { Link } from 'react-router-dom';
 
 const Featured = () => {
-  const [registered, setRegistered] = useState(true)
+  
   const [showSignup, setSignUp] = useState(false)
 
   return (
@@ -37,19 +39,11 @@ const Featured = () => {
               </p>
           </div>
 
-          <div className='tech item'>
-            <video className='skillVid ' src={assetsVideo.entertainment} autoPlay controls muted loop/>
-              <p>
-              <b>Discover Your Creative Potential.</b> <br />
-              <span>
-                Unleash your inner artist and explore the world of entertainment. Whether it's music, acting, or creative production, we show you what’s possible, and SkillUp provides the tools to make your mark in the industry.
-              </span>
-              </p>
-          </div>
+         
         </div>
         
 
-        <h3 className='featuresh3'>More Features</h3>
+        {/* <h3 className='featuresh3'>More Features</h3> */}
 
         <div className="moreFeatureContainer">
           <div className="featureSection hideSection">
@@ -114,10 +108,12 @@ const Featured = () => {
             </div>
           </div>
         </div>
-
+          <Link to={"/login"}>
           <button onClick={()=>setSignUp(true)}>Join us today→</button>
+          </Link>
+          
 
-          {showSignup? 
+          {/* {showSignup? 
           <div className='featureForm' >
             <div className='formContainer'>
               <CloseIcon onClick={()=>setSignUp(!showSignup)} className='closeIcon'/>
@@ -158,7 +154,7 @@ const Featured = () => {
               </button>
             </div>
           </div>
-          :null}
+          :null} */}
       </div>
       
     </div>

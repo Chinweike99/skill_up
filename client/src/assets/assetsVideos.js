@@ -86,7 +86,5 @@ export const testimonialsContent = [
         img: adichieWriter,
         name: "Daniel Chukwudi",
         occupation: "Software Developer"
-    },
-    
-
+    }
 ]

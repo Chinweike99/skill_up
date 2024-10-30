@@ -29,7 +29,6 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  /* height: 50%; */
 }
 
 .aboutContent .videoContainer {
@@ -53,17 +52,9 @@
   animation: scrollText ;
 }
 .aboutContent .aboutInfo p{
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
-/* @keyframes scrollText {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(50%);
-  }
-} */
 
 .aboutInfo p {
   animation-duration: 3s;

@@ -14,7 +14,7 @@ const Benefits = () => {
         <div className='Benefits'>
         
         <div className='benefitsImg'>
-            <img src={assets.Benefits} alt="" />
+            {/* <img src={assets.Benefits} alt="" /> */}
         </div>
         <div className='benefitsOptions'>
             <div className='benefitSelect'>

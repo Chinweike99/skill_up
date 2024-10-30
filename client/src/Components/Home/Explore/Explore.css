@@ -1,0 +1,73 @@
+
+.explore{
+    margin: 0 10% 10% 10%;
+}
+
+.exploreContent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+}
+.exploreContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.exploreContainer h3{
+    font-size: 3.3rem;
+}
+.exploreContent .exploreItem{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    overflow: hidden;
+    border: solid 2px grey;
+    background: rgb(255, 255, 255);
+    height: 9rem;
+    border-radius: 1.2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(72, 72, 72);
+    transition: all 0.5s ease-in;
+}
+
+.exploreContent .exploreItem .color{
+    height: 100%;
+    width: 30%;
+    background: rgb(79, 76, 76);
+
+}
+
+.exploreContent .exploreItem:hover{
+    background: black;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .exploreContent .exploreItem{
+        height: 7rem;
+        font-size: 1.6rem;
+    }
+    .exploreContent .exploreItem:hover{
+        cursor: pointer;
+        font-size: 2rem;
+    }
+    .exploreContainer h3{
+        font-size: 2.3rem;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .exploreContent .exploreItem{
+        height: 6rem;
+        font-size: 1rem;
+    }
+    .exploreContent .exploreItem:hover{
+        cursor: pointer;
+        font-size: 1.4rem;
+    }
+    
+}

@@ -17,6 +17,7 @@ import trade from './trade.png'
 import webdevelopment from './webdevelopment.png'
 import writing from './writing.png'
 import Benefits from './Benefits.png'
+import Explore from '../Components/Home/Explore/Explore'
 
 
 export const assets = {
@@ -76,4 +77,22 @@ export const benefitsContent2 = [
     //     title: "Access Learning Anytime, Anywhere",
     //     details: "With the convenience of online courses and a mobile app, you can continue learning no matter where life takes you. Your progress is always within reach."
     // },
+]
+
+export const explore = [
+    {course: "2000 courses"},
+    {course: "1040 courses"},
+    {course: "2303 courses"},
+    {course: "300 courses"},
+    {course: "400 courses"},
+    {course: "120 courses"},
+    {course: "220 courses"},
+    {course: "533 courses"},
+    {course: "554 courses"},
+    {course: "3441 courses"},
+    {course: "24567 courses"},
+    {course: "12 courses"},
+    {course: "345 courses"},
+    {course: "1234 courses"},
+    {course: "432 courses"},
 ]

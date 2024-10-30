@@ -28,17 +28,17 @@
     display: flex;
     padding: 1.5rem 10%;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 2rem;
 }
 
 .Benefits .benefitsImg {
     width: 30%;
-}
-.Benefits .benefitsImg img{
-    width: 100%;
+    background: url('../../../assets/tech.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
     height: 25rem;
-    border-radius: 1rem;
+     border-radius: 1.3rem;
 }
 .benefitsOptions{
     width: 100%;
@@ -114,16 +114,23 @@
         flex-direction: column;
         padding: 1.5rem 0;
     }
+    .benefitsOptions{
+        width: 80%;
+        align-self: center;
+    }
     .benefitsOptions .benefitSelect{
         flex-direction: column;
         gap: 0;
     }
-    .Benefits .benefitsImg {
+    .benefitSelect .option{
         width: 100%;
     }
+    .Benefits .benefitsImg {
+        width: 80%;
+    }
     .Benefits .benefitsImg img{
-        width: 100%;
-        height: 15rem;
+        /* height: 15rem; */
+        align-self: center;
         border-radius: 1rem;
     }
 }
