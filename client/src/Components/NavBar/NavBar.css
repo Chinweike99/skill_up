@@ -170,4 +170,16 @@ nav button:hover{
     .container .menuIcon{
         display: block;
     }
+    .exploreSmall .exploreDropdown ul{
+        gap: 5px;
+        font-size: 1rem;
+    }
+    .exploreList .exploreDropdown{
+        margin-top: -4rem;
+        width: 30rem;
+    }
+    .exploreDropdown .secondUl{
+        margin-top: 1px;
+    }
+
 }

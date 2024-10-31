@@ -68,6 +68,8 @@
     justify-content: center;
     color: var(--text-color);
     z-index: 2;
+    align-items: center;
+    text-align: center;
 }
 .heroWrite h1{
     text-transform: uppercase;
@@ -122,8 +124,8 @@
     justify-content: center;
     color: var(--text-color);
     z-index: 2;
-    font-size: 1.6rem;
-    width: 50%;
+    font-size: 2rem;
+    width: 80%;
     text-align: center;
     letter-spacing: 2px;
     animation-duration: 2s;
@@ -165,12 +167,6 @@
   }
 
 @media screen and (max-width: 1000px) {
-    .heroContainer h1{
-        font-size: 3rem;
-    }
-    .heroContainer h3{
-        font-size: 1.2rem;
-    }
     .heroContainer .heroMessage{
         width: 100%;
         padding: 0 2rem;
@@ -178,30 +174,27 @@
 }
 
 @media screen and (max-width: 750px){
-    .heroContainer h1{
-        font-size: 2.3rem;
-    }
     .heroContainer{
         width: 100vw;
     }
     
 }
-@media screen and (max-width: 600px){
-    .heroContainer h1{
-        font-size: 1.8rem;
-    }
-}
 
 
 @media screen and (max-width: 500px) {
+    .heroWrite{
+        align-items: center;
+        text-align: center;
+    }
     .heroWrite h1{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        align-self: center;
     }
     .heroContainer h3{
         font-size: 0.8rem;
     }
     .heroContainer .heroMessage{
-        font-size: 0.8rem;
+        font-size: 1.6rem;
     }
     .heroMessage .hideSmScreen{
         display: none;

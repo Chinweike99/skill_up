@@ -22,7 +22,7 @@ const NavBar = () => {
            
           <li className='popIn' onClick={()=>setShowList(!showlist)}> <Link to={"/"}>Home</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/courses"}>Courses</Link></li>
-            <li className='exploreList'>
+            <li className='exploreList exploreSmall'>
               <Link>Explore</Link>
                 <div className='exploreDropdown'>
                   <ul>
@@ -33,7 +33,7 @@ const NavBar = () => {
                     <li>Find your new career</li>
                   </ul>
 
-                  <ul>
+                  <ul className='secondUl'>
                     <h4>Subjects</h4>
                     <li>Data Science</li>
                     <li>Business</li>
