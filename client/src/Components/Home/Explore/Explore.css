@@ -35,7 +35,7 @@
 .exploreContent .exploreItem .color{
     height: 100%;
     width: 30%;
-    background: rgb(79, 76, 76);
+    background: linear-gradient(180deg, rgb(225, 156, 237) 50%, rgb(213, 242, 255) 60%);
 
 }
 

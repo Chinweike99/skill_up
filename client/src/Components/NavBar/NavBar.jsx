@@ -22,7 +22,32 @@ const NavBar = () => {
            
           <li className='popIn' onClick={()=>setShowList(!showlist)}> <Link to={"/"}>Home</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/courses"}>Courses</Link></li>
-            <li onClick={()=>setShowList(!showlist)}><Link  to={"/explore"}>Explore</Link></li>
+            <li className='exploreList'>
+              <Link>Explore</Link>
+                <div className='exploreDropdown'>
+                  <ul>
+                    <h4>Goals</h4>
+                    <li>Take a free course</li>
+                    <li> Earn a degree</li>
+                    <li>Earn a certificate</li>
+                    <li>Find your new career</li>
+                  </ul>
+
+                  <ul>
+                    <h4>Subjects</h4>
+                    <li>Data Science</li>
+                    <li>Business</li>
+                    <li>Computer Science</li>
+                    <li>Information Technology</li>
+                    <li>Language Learning</li>
+                    <li>Health</li>
+                    <li>Personal Development</li>
+                    <li>Social Sciences</li>
+                    <li>Arts and Humanities</li>
+                    <li>Browse all subjects</li>
+                  </ul>
+                </div>
+            </li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/communities"}>Communities</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/resources"}>Resources</Link></li>
             <li onClick={()=>setShowList(!showlist)}><Link to={"/register"}><button>Login</button></Link></li>
@@ -39,7 +64,32 @@ const NavBar = () => {
           <ul>
           <li className='popIn'> <Link to={"/"}>Home</Link></li>
             <li><Link to={"/courses"}>Courses</Link></li>
-            <li><Link  to={"/explore"}>Explore</Link></li>
+            <li className='exploreList'>
+              <Link>Explore</Link>
+                <div className='exploreDropdown'>
+                  <ul>
+                    <h4>Goals</h4>
+                    <li>Take a free course</li>
+                    <li> Earn a degree</li>
+                    <li>Earn a certificate</li>
+                    <li>Find your new career</li>
+                  </ul>
+
+                  <ul>
+                    <h4>Subjects</h4>
+                    <li>Data Science</li>
+                    <li>Business</li>
+                    <li>Computer Science</li>
+                    <li>Information Technology</li>
+                    <li>Language Learning</li>
+                    <li>Health</li>
+                    <li>Personal Development</li>
+                    <li>Social Sciences</li>
+                    <li>Arts and Humanities</li>
+                    <li>Browse all subjects</li>
+                  </ul>
+                </div>
+            </li>
             <li><Link to={"/communities"}>Communities</Link></li>
             <li><Link to={"/resources"}>Resources</Link></li>
             <li><Link to={"/login"}> <button>Login</button> </Link></li>
