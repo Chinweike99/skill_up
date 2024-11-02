@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './CourseHero.css'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
@@ -13,15 +14,16 @@ const CourseHero = () => {
         setDetails(d)
     }, [])
   return (
-    <div>
+    <div className='courseHeroMain'>
         <section>
-            <div>
+            <div className='courseHero'>
                 <h1>SkillUp Courses .....</h1>
+                <h3>Courses to get you started</h3>
                 <span>Explore courses from experienced real world experts..</span>
             </div>
 
             <div>
-                <div>
+                <div className='courseHeroSelect'>
                     <p>Most popular</p>
                     <p>New</p>
                     <p>Trending</p>
@@ -29,28 +31,33 @@ const CourseHero = () => {
 
                 <hr />
 
-                <div>
+                <div className='courseHeroContent'>
                     {courseInfo.map((item, index) => {
                         return(
-                            <div key={index}>
-                                <img src={item.img} alt="" />
-                                <div>
-                                    <p>{item.title}</p>
-                                    <span>{item.tutor}</span>
-                                    <div>
-                                        <b>4.5</b>
-                                        <StarRateIcon />
-                                        <StarRateIcon />
-                                        <StarRateIcon />
-                                        <StarRateIcon />
-                                        <StarOutlineIcon />
-                                        {item.raters}
+                            // <div className='courseHeroSet'>
+                                <div key={index} className='courseContent'>
+                                    <div className='courseHeroWidth'>
+                                        <img src={item.img} alt="" />
+                                        <div className='title'>
+                                            <p>{item.title}</p>
+                                            <span>{item.tutor}</span>
+                                            <div className='raters'>
+                                                <b>4.5</b>
+                                                <StarRateIcon className='star'/>
+                                                <StarRateIcon className='star'/>
+                                                <StarRateIcon className='star'/>
+                                                <StarRateIcon className='star'/>
+                                                <StarOutlineIcon />
+                                                ({item.raters})
+                                            </div>
+                                            <b className='money'>{money} {item.price}</b>
+                                        </div>
                                     </div>
-                                    <b>{money}{item.price}</b>
                                 </div>
-                            </div>
+                            // {/* </div> */}
                         )
                     })}
+                    <KeyboardArrowRightIcon />
                 </div>
 
             </div>

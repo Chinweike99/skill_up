@@ -33,4 +33,12 @@ export const courseInfo = [
         raters: "1,040",
         price: "30"
     },
+    {
+        img: bagMaking,
+        category: "vocational",
+        title: "Have your clients come back for more bags",
+        tutor: "Camela Harris",
+        raters: "1,040",
+        price: "30"
+    },
 ]
