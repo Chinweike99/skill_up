@@ -3,22 +3,22 @@ import './Course.css'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const Course = () => {
-    const [visible, setVisible] = useState(false)
+    const [visible, setVisible] = useState(true)
   return (
     <div className='courseHeader'>
         <header>
             <div className='headerSpan'>
-                <span>
-                    Development
+            <span>
+                    Software Engineering
                 </span>
                 <span>
                     Web Development
                 </span>
                 <span>
-                    Data Science
+                    Vocational Skills
                 </span>
                 <span>
-                    Mobile development
+                    Entertainment
                 </span>
                 <span>
                     Programming Languages 
@@ -29,16 +29,16 @@ const Course = () => {
             <div className='headerContent' style={{display: visible? "none" : "flex"}}>
                 <p onClick={()=>setVisible(!visible)}>X</p>
                 <span>
-                    Development
+                    Software Engineering
                 </span>
                 <span>
                     Web Development
                 </span>
                 <span>
-                    Data Science
+                    Vocational Skills
                 </span>
                 <span>
-                    Mobile development
+                    Entertainment
                 </span>
                 <span>
                     Programming Languages 

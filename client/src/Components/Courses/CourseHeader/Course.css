@@ -1,5 +1,11 @@
+
 .courseHeader{
     padding: 0.5rem 2rem;
+    border-bottom: solid 1px gray;
+    margin-bottom: 2.5rem;
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
 }
 
 .courseHeader header{
@@ -31,19 +37,6 @@ header p{
     display: none;
 }
 
-@media screen and (max-width: 769px) {
-    .headerSpan{
-        flex-wrap: wrap;
-        display: none;
-    }
-    .headerContent{
-        visibility: visible;
-    }
-    header p{
-        display: flex;
-    }
-}
-
 .headerContent{
     margin-left: 10px;
     display: flex;
@@ -71,3 +64,17 @@ header p{
     font-size: 1.5rem;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 769px) {
+    .headerSpan{
+        flex-wrap: wrap;
+        display: none;
+    }
+    .headerContent{
+        visibility: visible;
+    }
+    header p{
+        display: flex;
+    }
+}
+
