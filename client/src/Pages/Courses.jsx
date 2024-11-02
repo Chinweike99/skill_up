@@ -1,9 +1,10 @@
 import React from 'react'
+import Course from '../Components/Courses/CourseHeader/Course'
 
 const Courses = () => {
   return (
     <div>
-       <h1>COURSES STILL IN DEVELOPRMENT</h1>
+       <Course />
     </div>
   )
 }

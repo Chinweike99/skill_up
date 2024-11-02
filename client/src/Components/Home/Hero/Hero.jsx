@@ -15,7 +15,7 @@ export const Hero = () => {
         <div className='heroMessage'>
            <p>Empowering you to become the best version of yourself..
            </p>
-
+           
           <p className='hideSmScreen'>Explore a wide range of skills across various fields like tech, creative arts, business, and more. With personalized learning paths and mentorship, you can achieve your goals faster.
           </p>
         </div>

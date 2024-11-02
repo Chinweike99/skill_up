@@ -1,0 +1,73 @@
+.courseHeader{
+    padding: 0.5rem 2rem;
+}
+
+.courseHeader header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.headerSpan{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+}
+.headerSpan span{
+    border: solid 1px rgb(216, 214, 214);
+    border-radius: 4px;
+    padding: 0.6rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-align: center;
+}
+.headerSpan span:hover{
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+}
+
+header p{
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    .headerSpan{
+        flex-wrap: wrap;
+        display: none;
+    }
+    .headerContent{
+        visibility: visible;
+    }
+    header p{
+        display: flex;
+    }
+}
+
+.headerContent{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #fff;
+    padding-bottom: 2rem;
+    display: none;
+}
+
+.headerContent p{
+    align-self: flex-end;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+
+.headerContent span{
+    border-bottom: solid 1px rgb(216, 214, 214);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
