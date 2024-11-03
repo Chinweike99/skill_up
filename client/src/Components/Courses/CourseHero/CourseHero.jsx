@@ -43,7 +43,6 @@ const CourseHero = () => {
                 <div className={styles.courseHeroContent}>
                 <Swiper
                 modules={[Pagination, Navigation]}
-                
                 breakpoints={{
                     800: { slidesPerView: 4 },
                     640: { slidesPerView: 3 },
