@@ -44,22 +44,20 @@ hr{
 }
 .courseContent{
     width: 100%;
-    position: absolute;
 }
 
 .courseHeroContent {
     display: flex;
-    /* gap: 1rem; */
 }
 
-.swiper-slide{
+.courseHeroContent .courseSlide {
     background: transparent;
     display: flex;
     border-radius: 10px;
     box-sizing: border-box;
     cursor: pointer;
     overflow: hidden;
-    width: 50%;
+    /* width: 50%; */
     color: black;
     position: relative;
     padding: 0 0 3rem 0;
@@ -78,12 +76,18 @@ hr{
   }
 
 
-.swiper-slide .courseImg img{
-    height: 25rem;
+  .courseSlide .courseImg img{
+    height: 20rem;
     width: 100%;
     margin-bottom: 1rem;
     transition: all 0.5s ease-in-out;
     margin-top: 0;
+    
+}
+.courseContent{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-bottom: 2rem;
 }
 
 .courseContent img:hover{
@@ -126,7 +130,6 @@ hr{
 
 
 
-/* *****************Bottom Contents */
 .courseLearn{
     display: flex;
     align-items: center;

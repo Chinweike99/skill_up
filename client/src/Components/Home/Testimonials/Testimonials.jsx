@@ -8,17 +8,18 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
-import './Testimonials.css';
+import styles from './Testimonials.module.css';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { testimonialsContent } from '../../../assets/assetsVideos';
+import { css } from '@emotion/react';
 
 
 const Testimonials = () => {
   return (
-    <div className='body'>
-        <div className='testimonies'>
+    <div className={styles.body}>
+        <div className={styles.testimonies}>
             <h3>Testimonies.</h3>
             <span>See How SkillUp Made a Difference.</span> <br />
             <small>Disclaimer: These testimonials are fictional and for illustrative purposes only.</small>
@@ -27,7 +28,7 @@ const Testimonials = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={'auto'}
+        slidesPerView={'auto'}       
         coverflowEffect={{
           rotate: 50,
           stretch: 0,
@@ -37,19 +38,18 @@ const Testimonials = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
       >
         
             { 
             
             testimonialsContent.map((items, index)=>{
                 return(
-                    <div key={index} className='sliderDiv'>
-                        <SwiperSlide>
+                    <div key={index} className={styles.sliderDiv}>
+                        <SwiperSlide className={styles.testimonialsSwiper}>
                         <p>{items.testimony}</p>
-                        <div className='sliderContainer'>
+                        <div className={styles.sliderContainer}>
                             <img src={items.img} alt="" />
-                            <div className='testimonyAbout'>
+                            <div className={styles.testimonyAbout}>
                                 <p>{items.name}</p>
                                 <span>{items.occupation}</span>
                             </div>

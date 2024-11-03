@@ -5,7 +5,7 @@ import Courses from './Courses'
 import Explore from './Explore'
 import Communities from './Communities'
 import Resources from './Resources'
-import Register from '../Auth/Register/StudentRegistration/StudentRegisteration'
+// import Register from '../Auth/Register/StudentRegistration/StudentRegisteration'
 import NavBar from '../Components/NavBar/NavBar'
 import Footer from '../Components/Footer/Footer'
 

@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Featured.css'
 import { assetsVideo } from '../../../assets/assetsVideos'
-import CloseIcon from '@mui/icons-material/Close';
-import Login from '../../../Auth/Login/Login';
 import { Link } from 'react-router-dom';
 
 const Featured = () => {
-  
-  const [showSignup, setSignUp] = useState(false)
+
 
   return (
     <div className='features'>
@@ -109,7 +106,7 @@ const Featured = () => {
           </div>
         </div>
           <Link to={"/login"}>
-          <button onClick={()=>setSignUp(true)}>Join us today→</button>
+          <button>Join us today→</button>
           </Link>
           
 

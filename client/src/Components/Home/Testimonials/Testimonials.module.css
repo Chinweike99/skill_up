@@ -28,16 +28,10 @@
     font-size: 0.7rem;
     color: red;
     font-style: italic;
-
   }
   
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   
-  .swiper-slide {
+ .testimonialsSwiper {
     background-position: center;
     background-size: cover;
     width: 300px;
@@ -60,18 +54,17 @@
     -moz-box-shadow: 1px 1px 36px 0px rgba(0,0,0,0.75);
   }
   
-  .swiper-slide img {
+ .testimonialsSwiper .sliderContainer img {
     display: block;
     width: 4rem;
     height: 4rem;
     border-radius: 5px;
   }
-  .sliderDiv{
+  .body .swiper .sliderDiv{
     padding: 1rem;
     background-color: red;
   }
-
-  .swiper-slide .sliderContainer {
+ .sliderDiv .testimonialsSwiper .sliderContainer {
     margin-top: 2rem;
     display: flex;
     gap: 0.6rem;

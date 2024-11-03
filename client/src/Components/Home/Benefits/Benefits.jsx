@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Benefits.css'
-import { assets, benefitsContent, benefitsContent2 } from '../../../assets/assets'
+import {benefitsContent, benefitsContent2 } from '../../../assets/assets'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Benefits = () => {

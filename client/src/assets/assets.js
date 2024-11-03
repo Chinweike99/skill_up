@@ -17,7 +17,6 @@ import trade from './trade.png'
 import webdevelopment from './webdevelopment.png'
 import writing from './writing.png'
 import Benefits from './Benefits.png'
-import Explore from '../Components/Home/Explore/Explore'
 
 
 export const assets = {

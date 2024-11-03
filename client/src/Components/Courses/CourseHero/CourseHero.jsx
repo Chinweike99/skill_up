@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './CourseHero.css'
+import styles from './CourseHero.module.css'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import { courseInfo } from '../../../assetsCourse/course';
@@ -21,17 +21,17 @@ const CourseHero = () => {
 
 
   return (
-    <div className='courseHeroMain'>
+    <div className={styles.courseHeroMain}>
         <section>
             
-            <div className='courseHero'>
+            <div className={styles.courseHero}>
                 <h1>SkillUp Courses .....</h1>
                 <h3>Courses to get you started</h3>
                 <span>Explore courses from experienced real world experts..</span>
             </div>
 
             <div>
-                <div className='courseHeroSelect'>
+                <div className={styles.courseHeroSelect}>
                     <p onClick={()=>setDetails(courseInfo)}>Most popular</p>
                     <p onClick={()=>getCurrent("tech")}>Programming</p>
                     <p onClick={()=>getCurrent("vocational")}>Vocational</p>
@@ -40,10 +40,10 @@ const CourseHero = () => {
 
                 <hr />
 
-                <div className='courseHeroContent'>
+                <div className={styles.courseHeroContent}>
                 <Swiper
                 modules={[Pagination, Navigation]}
-                className='courseSlide'
+                
                 breakpoints={{
                     800: { slidesPerView: 4 },
                     640: { slidesPerView: 3 },
@@ -55,26 +55,26 @@ const CourseHero = () => {
                         {courseDetail.map((item, index) => {
                             return(
                                 // <div className='courseHeroSet'>
-                                <SwiperSlide >
-                                    <div key={index} className='courseContent'>
-                                        <div className='courseHeroWidth'>
-                                            <div className='courseImg'>
+                                <SwiperSlide key={index} className={styles.courseSlide}>
+                                    <div className={styles.courseContent}>
+                                        <div className={styles.courseHeroWidth}>
+                                            <div className={styles.courseImg}>
                                                 <img src={item.img} alt="" className='img-p'/>
                                             </div>
                                             
-                                            <div className='title'>
+                                            <div className={styles.title}>
                                                 <p>{item.title}</p>
                                                 <span>{item.tutor}</span>
-                                                <div className='raters'>
+                                                <div className={styles.raters}>
                                                     <b>4.5</b>
-                                                    <StarRateIcon className='star'/>
-                                                    <StarRateIcon className='star'/>
-                                                    <StarRateIcon className='star'/>
-                                                    <StarRateIcon className='star'/>
+                                                    <StarRateIcon className={styles.star}/>
+                                                    <StarRateIcon className={styles.star}/>
+                                                    <StarRateIcon className={styles.star}/>
+                                                    <StarRateIcon className={styles.star}/>
                                                     <StarOutlineIcon />
                                                     ({item.raters})
                                                 </div>
-                                                <b className='money'>{money} {item.price}</b>
+                                                <b className={styles.money}>{money} {item.price}</b>
                                             </div>
                                         </div>
                                     </div>
@@ -87,17 +87,17 @@ const CourseHero = () => {
             </div>
         </section>
 
-        <div className='courseLearn'>
-            <div className='courseExtra'>
+        <div className={styles.courseLearn}>
+            <div className={styles.courseExtra}>
                 <div><PlayArrowIcon /></div>
                 <p>Learn in-demand skills with over 250,000 video courses</p>
             </div>
 
-            <div className='courseExtra'>
+            <div className={styles.courseExtra}>
                 <div><StarRateIcon /></div>
                 <p>Choose courses taught by real-world experts</p>
             </div>
-            <div className='courseExtra'>
+            <div className={styles.courseExtra}>
                 <div><AllInclusiveIcon /></div>
                 <p>Learn at your own pace, with lifetime access on mobile and desktop</p>
             </div>
