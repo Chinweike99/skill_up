@@ -59,3 +59,13 @@ section .course span{
     color: goldenrod;
     font-size: 1.3rem;
 }
+
+@media screen and (max-width: 500px) {
+    .featuredContent{
+        flex-direction: column;
+        gap: 2px;
+    }
+    .featuredContent img{
+        width: 100%;
+    }
+}

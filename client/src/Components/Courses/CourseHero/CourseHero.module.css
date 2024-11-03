@@ -169,4 +169,7 @@ hr{
     section div .courseHeroSelect{
         flex-wrap: wrap;
     }
+    .courseLearn{
+        flex-wrap: wrap;
+    }
 }
