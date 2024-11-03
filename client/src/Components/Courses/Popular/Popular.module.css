@@ -1,0 +1,62 @@
+
+section{
+    padding: 2rem;
+    font-family: 'Roboto';
+}
+
+.coaches h1{
+    font-size: 2rem;
+}
+
+.coaches .coachSpan{
+    font-size: 1rem;
+    color: gray;
+}
+
+.coachContainer{
+    display: flex;
+    /* gap: 1rem; */
+   
+}
+.swiper{
+    padding: 2rem 0;
+}
+
+.popularContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: solid 1px rgb(191, 187, 187);
+    background: rgb(248, 246, 246);
+    gap: 1rem;
+    height: 15rem;
+    border-radius: 1rem;
+    width: 100%;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+
+.popularContent:hover{
+    background: black;
+    color: #fff;
+}
+.popularContent img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.popularContent div{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.popularContent div h3{
+    font-size: 1.5rem;
+}
+.popularContent div span{
+    font-size: 1.1rem;
+}
+.colorIcon{
+    color: goldenrod;
+}

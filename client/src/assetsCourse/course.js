@@ -14,10 +14,16 @@ import dance from './dance.png'
 import hike from './hike.png'
 import kidsNanny from './kidsNanny.png'
 import featuredCourse from './featuredCourse.png'
+import coach1 from  './coach1.jpeg'
+import coach2 from  './coach2.jpeg'
+import coach3 from  './coach3.jpeg'
+import coach4 from  './coach4.jpeg'
+import coach5 from  './coach5.jpeg'
+import coach6 from  './coach6.jpeg'
 
 export const courseImg = {
     artificialIntelligence, bagMaking, comedy, contentCreation, dataScience, entertainment,
-    fashionDesign, programming, shoemaking, welding, writing, featuredCourse
+    fashionDesign, programming, shoemaking, welding, writing, featuredCourse, coach1,coach2,coach3,coach4,coach5,coach6
 }
 
 
@@ -133,5 +139,56 @@ export const courseInfo = [
         tutor: "Brian Daniel",
         raters: "899",
         price: "40"
+    },
+]
+
+export const popularcourse = [
+    {
+        img: coach1,
+        name: "Jackson Davis",
+        courseName: "Data Analysis",
+        rating: "4.6",
+        noStudents: "2,345",
+        noCourses: 20
+    },
+    {
+        img: coach2,
+        name: "Nathaniel Timothy",
+        courseName: "Fashion Design",
+        rating: "4.9",
+        noStudents: "200,345",
+        noCourses: 20
+    },
+    {
+        img: coach3,
+        name: "Brian Adams",
+        courseName: "Web Development",
+        rating: "5",
+        noStudents: "380,345",
+        noCourses: 21
+    },
+    {
+        img: coach4,
+        name: "Ezekiel Nwachukwu",
+        courseName: "Social Media Management",
+        rating: "4.8",
+        noStudents: "80,345",
+        noCourses: 9
+    },
+    {
+        img: coach5,
+        name: "Mathias Abram",
+        courseName: "Content writing",
+        rating: "4.0",
+        noStudents: "77,345",
+        noCourses: 12
+    },
+    {
+        img: coach6,
+        name: "Amandla Steve",
+        courseName: "Nodejs, Reactjs",
+        rating: "4.9",
+        noStudents: "770,345",
+        noCourses: 19
     },
 ]

@@ -60,7 +60,7 @@ section .course span{
     font-size: 1.3rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
     .featuredContent{
         flex-direction: column;
         gap: 2px;
