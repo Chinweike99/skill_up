@@ -1,3 +1,5 @@
+
+
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Routing from './Pages/Route';
@@ -7,6 +9,12 @@ import StudentRegisteration from './Auth/Register/StudentRegistration/StudentReg
 import Register from './Auth/Register/Register';
 import Login from './Auth/Login/Login';
 import CoachDashboard from './Dashboards/CoachDashBoard/CoachDashboard';
+
+import { Buffer } from 'buffer';
+import process from 'process';
+
+window.Buffer = Buffer;
+window.process = process;
 
 /**
  * 

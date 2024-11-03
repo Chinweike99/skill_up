@@ -60,12 +60,17 @@ section .course span{
     font-size: 1.3rem;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
     .featuredContent{
         flex-direction: column;
         gap: 2px;
     }
     .featuredContent img{
         width: 100%;
+    }
+}
+@media screen and (max-width: 410px){
+    .webDev h3{
+        font-size: 2rem;
     }
 }
