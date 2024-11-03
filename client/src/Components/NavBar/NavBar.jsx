@@ -11,7 +11,9 @@ const NavBar = () => {
   return (
     <nav>
       <div className='container'>
-        <img src={assets.skill} alt="" />
+        <div className='img'>
+          <p><span>skill</span>UP</p>
+        </div>
 
         <div className='navList2' style={{display: showlist? "block" : "none"}}>
           <CloseIcon
