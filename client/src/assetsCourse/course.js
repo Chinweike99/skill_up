@@ -13,10 +13,11 @@ import ComedyClub from './ComedyClub.png'
 import dance from './dance.png'
 import hike from './hike.png'
 import kidsNanny from './kidsNanny.png'
+import featuredCourse from './featuredCourse.png'
 
 export const courseImg = {
     artificialIntelligence, bagMaking, comedy, contentCreation, dataScience, entertainment,
-    fashionDesign, programming, shoemaking, welding, writing
+    fashionDesign, programming, shoemaking, welding, writing, featuredCourse
 }
 
 
