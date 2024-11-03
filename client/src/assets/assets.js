@@ -8,8 +8,6 @@ import marketing from './marketing.png'
 import music from './music.png'
 import music_piano from './music_piano.png'
 import skill from './skill.png'
-import skill1 from './skill1.png'
-import skillup2 from './skillup2.png'
 import spa from './spa.png'
 import tailoring from './tailoring.png'
 import tech from './tech.png'
@@ -20,7 +18,7 @@ import Benefits from './Benefits.png'
 
 
 export const assets = {
-    barbing, dance, fashionDesign, fitness, fitness_dumbell,Hairdresser, music, music_piano, skill, skill1, skillup2, spa, tailoring, tech, trade, webdevelopment, writing, marketing, Benefits
+    barbing, dance, fashionDesign, fitness, fitness_dumbell,Hairdresser, music, music_piano, skill, spa, tailoring, tech, trade, webdevelopment, writing, marketing, Benefits
 }
 
 export const benefitsContent = [
