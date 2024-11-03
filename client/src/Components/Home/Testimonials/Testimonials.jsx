@@ -46,15 +46,15 @@ const Testimonials = () => {
                 return(
                     <div key={index} className={styles.sliderDiv}>
                         <SwiperSlide className={styles.testimonialsSwiper}>
-                        <p>{items.testimony}</p>
-                        <div className={styles.sliderContainer}>
-                            <img src={items.img} alt="" />
-                            <div className={styles.testimonyAbout}>
-                                <p>{items.name}</p>
-                                <span>{items.occupation}</span>
-                            </div>
-                        </div>
-                      
+                          <p>{items.testimony}</p>
+                          <div className={styles.sliderContainer}>
+                              <img src={items.img} alt="" />
+                              <div className={styles.testimonyAbout}>
+                                  <p>{items.name}</p>
+                                  <span>{items.occupation}</span>
+                              </div>
+                          </div>
+                        
                         </SwiperSlide>
                         
                     </div>

@@ -34,8 +34,9 @@ const CourseHero = () => {
                 <div className={styles.courseHeroSelect}>
                     <p onClick={()=>setDetails(courseInfo)}>Most popular</p>
                     <p onClick={()=>getCurrent("tech")}>Programming</p>
-                    <p onClick={()=>getCurrent("vocational")}>Vocational</p>
                     <p onClick={()=>getCurrent("entertainment")}>Entertainment</p>
+                    <p onClick={()=>getCurrent("vocational")}>Vocational</p>
+                    
                 </div>
 
                 <hr />

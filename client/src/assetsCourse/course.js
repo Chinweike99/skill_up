@@ -9,6 +9,10 @@ import programming from './programming.png'
 import shoemaking from './shoemaking.png'
 import welding from './welding.png'
 import writing from './writing.png';
+import ComedyClub from './ComedyClub.png'
+import dance from './dance.png'
+import hike from './hike.png'
+import kidsNanny from './kidsNanny.png'
 
 export const courseImg = {
     artificialIntelligence, bagMaking, comedy, contentCreation, dataScience, entertainment,
@@ -58,6 +62,14 @@ export const courseInfo = [
         price: "100"
     },
     {
+        img: ComedyClub,
+        category: "entertainment",
+        title: "We tell joke beyond laughter.",
+        tutor: "Jade Joker",
+        raters: "949",
+        price: "30"
+    },
+    {
         img: fashionDesign,
         category: "vocational",
         title: "Fashion as never been",
@@ -96,5 +108,29 @@ export const courseInfo = [
         tutor: "Tracy Brian",
         raters: "3,970",
         price: "70"
+    },
+    {
+        img: dance,
+        category: "entertainment",
+        title: "The DANCE",
+        tutor: "Claire Brian",
+        raters: "5,099",
+        price: "90"
+    },
+    {
+        img: hike,
+        category: "entertainment",
+        title: "Pro HiKeR",
+        tutor: "Davis Brian",
+        raters: "3,099",
+        price: "20"
+    },
+    {
+        img: kidsNanny,
+        category: "entertainment",
+        title: "Be the best Kids Entertainer",
+        tutor: "Brian Daniel",
+        raters: "899",
+        price: "40"
     },
 ]
