@@ -128,7 +128,7 @@ ul li a:hover{
 .exploreList .exploreDropdown{
     margin-top: 10px;
     position: absolute;
-    width: 40rem;
+    width: 20rem;
     opacity: 0;
     display: none;
     transition: all 0.6s ease-in-out ;
