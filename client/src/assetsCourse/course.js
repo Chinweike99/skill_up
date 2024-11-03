@@ -28,17 +28,73 @@ export const courseInfo = [
     {
         img: bagMaking,
         category: "vocational",
-        title: "Have your clients come back for more bags",
+        title: "Become a bag making god.",
         tutor: "Camela Harris",
         raters: "1,040",
         price: "30"
     },
     {
-        img: bagMaking,
-        category: "vocational",
-        title: "Have your clients come back for more bags",
+        img: comedy,
+        category: "entertainment",
+        title: "Jokes as never been told",
+        tutor: "Karil Laughs",
+        raters: "1,049",
+        price: "80"
+    },
+    {
+        img: contentCreation,
+        category: "tech",
+        title: "Become a highly sort content creator, in 6 months",
         tutor: "Camela Harris",
         raters: "1,040",
         price: "30"
+    },
+    {
+        img: dataScience,
+        category: "tech",
+        title: "Become a master in Data Science.",
+        tutor: "David Hilton",
+        raters: "10,420",
+        price: "100"
+    },
+    {
+        img: fashionDesign,
+        category: "vocational",
+        title: "Fashion as never been",
+        tutor: "Martha Kenneth",
+        raters: "3,210",
+        price: "100"
+    },
+    {
+        img: programming,
+        category: "tech",
+        title: "Become a Software Engineer and land your dream role",
+        tutor: "Williams Ava",
+        raters: "6,210",
+        price: "110"
+    },
+    {
+        img: shoemaking,
+        category: "vocational",
+        title: "Don't just make foot-wears, make them classic.",
+        tutor: "Ava James",
+        raters: "1,010",
+        price: "40"
+    },
+    {
+        img: welding,
+        category: "vocational",
+        title: "Learn the Art of Fabricating materials.",
+        tutor: "Morgan Samuel",
+        raters: "1,910",
+        price: "30"
+    },
+    {
+        img: writing,
+        category: "tech",
+        title: "Say your thoughts with your pen.",
+        tutor: "Tracy Brian",
+        raters: "3,970",
+        price: "70"
     },
 ]
