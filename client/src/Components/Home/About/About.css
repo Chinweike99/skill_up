@@ -9,7 +9,6 @@
   animation-name: slidein;
   text-transform: uppercase;
   letter-spacing: 4px;
-  /* font-family: sans-serif; */
 }
 
 @keyframes slidein {
@@ -46,13 +45,13 @@
 
 .aboutContent .aboutInfo{
   width: 50%;
-  font-size: 1rem;
+  font-size: var(--normal-font);
   text-align: justify;
   overflow: hidden;
   animation: scrollText ;
 }
 .aboutContent .aboutInfo p{
-  font-size: 1.5rem;
+  font-size: var(--normal-font);
 }
 
 

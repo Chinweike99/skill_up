@@ -1,11 +1,13 @@
-
+.hero{
+    height: 100vh;
+}
 
 .heroContainer{
     position: relative;
     width: 100%;
     background-image: url('../../../assets/tech.png');
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-position: top;
     animation: bgChange 60s linear infinite;
@@ -20,35 +22,20 @@
     0%{
         background-image: url('../../../assets/tech.png');
     }
-    10%{
+    20%{
         background-image: url('../../../assets/webdevelopment.png');
     }
-    20%{
+    40%{
         background-image: url('../../../assets/fitness_dumbell.png');
     }
-    30%{
+    60%{
         background-image: url('../../../assets/marketing.png');
     }
-    40%{
+    80%{
         background-image: url('../../../assets/music_piano.png');
     }
-    50%{
+    10%{
         background-image: url('../../../assets/dance.png');
-    }
-    60%{
-        background-image: url('../../../assets/fashionDesign.png');
-    }
-    70%{
-        background-image: url('../../../assets/barbing.png');
-    }
-    80%{
-        background-image: url('../../../assets/Hairdresser.png');
-    }
-    90%{
-        background-image: url('../../../assets/trade.png');
-    }
-    90%{
-        background-image: url('../../../assets/music.png');
     }
 }
 

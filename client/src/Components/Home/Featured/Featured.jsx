@@ -16,7 +16,7 @@ const Featured = () => {
          </span>
         </p>
 
-        <div className='onlineSkill'>
+        {/* <div className='onlineSkill'>
           <div className='tech'>
             <video className='skillVid' src={assetsVideo.programming} autoPlay controls muted loop/>
             <p><b>Learn Today, Lead Tomorrow.</b> <br />
@@ -34,10 +34,10 @@ const Featured = () => {
              Master practical skills that open doors to rewarding careers. From tailoring to other hands-on trades. SkillUp is here to help you build not just skills, but a sustainable livelihood.
             </span>
               </p>
-          </div>
+          </div> */}
 
-         
-        </div>
+        
+        {/* </div> */}
         
 
         {/* <h3 className='featuresh3'>More Features</h3> */}
