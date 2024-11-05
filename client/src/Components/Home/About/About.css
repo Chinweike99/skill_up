@@ -46,13 +46,10 @@
 
 .aboutContent .aboutInfo {
   width: 50%;
-  /* font-size: var(--normal-font); */
+  font-size: var(--normal-font);
   text-align: justify;
   overflow: hidden;
   animation: scrollText ;
-}
-.aboutContent .aboutInfo p{
-  /* font-size: var(--normal-font); */
 }
 
 
