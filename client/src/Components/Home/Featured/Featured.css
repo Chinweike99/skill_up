@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
 
 .skillContainer h1{
@@ -14,8 +15,8 @@
 .skillContainer p{
     text-align: justify;
     margin: 1rem 0;
+    border: 0;
   font-size: var(--normal-font);
-    letter-spacing: 1px;
 }
 
 
@@ -27,19 +28,6 @@
     }
     .skillContainer p{
         margin: 1rem 0;
-    }
-    .onlineSkill .tech{
-        display: flex;
-        flex-direction: column;
-        background: black;
-        padding: 2rem;
-        height: 25rem;
-        overflow: hidden;
-    }
-    
-    .tech .skillVid{
-        height: 13rem;
-        width: 100%;
     }
     .moreFeatureContainer{
         width: 100%;
@@ -91,7 +79,6 @@
 .moreFeat p{
     text-align: left;
     margin: 0.4rem 0;
-    font-family:  serif;
     font-size: var(--normal-font);
 }
 
@@ -114,7 +101,7 @@
 .skillContainer button{
     margin-top: 3rem;
     padding: 0.8rem 1.4rem;
-    font-size: 1.2rem;
+    font-size: var(--normal-font);
     border: none;
     border-radius: 25px;
     background: #333;
@@ -137,16 +124,6 @@
 @media screen and (max-width: 470px) {
     .moreFeat {
         text-align: left;
-    }
-    .moreFeat span{
-        font-size: 0.75rem;
-    }
-    .moreFeat h4{
-        font-size: 0.8rem;
-    }
-    .featureSection .moreFeat p{
-        margin-left: 0;
-        font-size: 0.8rem;
     }
     .skillContainer{
         padding: 4rem 0.8rem;

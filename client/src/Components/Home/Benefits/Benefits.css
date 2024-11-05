@@ -1,13 +1,13 @@
 .benefitsMain{
     background: #c9dde8;
     padding: 3rem 5%;
+    font-family: 'Roboto';
 }
 
 .benefitsMain h3{
     text-align: center;
     color: var(--bg-color);
     font-size: 1.4rem;
-    font-family: sans-serif;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     text-transform: uppercase;
@@ -74,7 +74,6 @@
     color: #fff;
     padding: 0.4rem 0.7rem;
     border-radius: 0.4rem;
-    font-size: var(--normal-font);
     margin-bottom: 0.2rem;
     display: none;
     -webkit-box-shadow: -1px -1px 23px 0px rgba(0,0,0,0.75);

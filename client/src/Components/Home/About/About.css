@@ -1,6 +1,7 @@
 .aboutUs{
   padding: 4rem 5%;
   background-color: #c9dde8;
+  font-family: 'Roboto';
 }
 .aboutUs h1{
   text-align: center;
@@ -43,15 +44,15 @@
   height: 19rem;
 }
 
-.aboutContent .aboutInfo{
+.aboutContent .aboutInfo {
   width: 50%;
-  font-size: var(--normal-font);
+  /* font-size: var(--normal-font); */
   text-align: justify;
   overflow: hidden;
   animation: scrollText ;
 }
 .aboutContent .aboutInfo p{
-  font-size: var(--normal-font);
+  /* font-size: var(--normal-font); */
 }
 
 
@@ -84,11 +85,6 @@
 }
 .aboutContent .videoContainer .aboutVid{
   height: 11rem;
-}
-.aboutInfo p {
-  text-align: justify;
-  font-size: 1rem;
-  letter-spacing: 1px;
 }
 
 }
