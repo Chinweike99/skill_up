@@ -29,6 +29,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  font-size: var(--normal-font);
 }
 
 .aboutContent .videoContainer {
@@ -46,7 +47,7 @@
 
 .aboutContent .aboutInfo {
   width: 50%;
-  font-size: var(--normal-font);
+  /* font-size: var(--normal-font); */
   text-align: justify;
   overflow: hidden;
   animation: scrollText ;
