@@ -14,7 +14,6 @@
 }
 .skillContainer p{
     text-align: justify;
-    margin: 1rem 0;
     border: 0;
   font-size: var(--normal-font);
 }
@@ -25,9 +24,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
-    .skillContainer p{
-        margin: 1rem 0;
     }
     .moreFeatureContainer{
         width: 100%;
@@ -133,39 +129,13 @@
     }
     .skillContainer p{
         text-align: justify;
-        margin: 2rem 3%;
-        font-size: 1rem;
-        letter-spacing: 1px;
+        /* margin: 2rem 3%; */
     }
 
-    .onlineSkill .tech{
-        height: 12rem;
-        width: 21rem;
-        margin: auto 0;
-        text-align: center;
-    }
-    
-    .tech .skillVid{
-        height: 6rem;
-        width: 100%;
-    }
     .onlineSkill{
        display: flex;
        flex-direction: column;
        align-items: center;
-    }
-    .tech p {
-        text-align: center;
-    }
-    .tech p b{
-        font-size: 0.8rem;
-        text-align: center;
-    }
-    .tech p span{
-        display: none;
-    }
-    .skillContainer p{
-        margin: 1rem 8%;
     }
     .skillContainer .featuresh3{
         font-size: 1.5rem;
@@ -203,45 +173,4 @@
         opacity: 1;
         transform: none;
     }
-}
-
-.featureForm .formContainer{
-    padding: 2rem;
-    background: #fff;
-    opacity: 1;
-    z-index: 2;
-    width: 40rem;
-    margin-top: 105rem;
-    border-radius: 1rem;
-}
-
-.formContainer form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    margin-top: 1rem;
-}
-
-.formContainer form div{
-    display: flex;
-    gap: 1rem;
-}
-
-.formContainer form input{
-    height: 2.5rem;
-    width: 100%;
-    padding-left: 0.5rem;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-.formContainer .closeIcon{
-    float: right;
-    margin-bottom: 2rem;
-    cursor: pointer;
-}
-
-.featureForm .formContainer form button{
-    border-radius: 3px;
 }
